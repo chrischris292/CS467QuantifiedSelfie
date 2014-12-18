@@ -1,0 +1,75 @@
+<html>
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Academic Research Paper Data Visualization</title>
+    <meta name="description" content="A CS 467 Final Project Visualizing Academic Research Papers">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+       <link rel="stylesheet" href="fonts/gotham.css" type="text/css">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="sss/sss.css" type="text/css">
+
+</head>
+<body>
+<div class = "headerContainer">
+    <div class = "container">
+        <h1>Texting Visualization</h1>
+        <line></line>
+        <div id = "subTitle" >In 2013-2014 I most frequently mispelled: <span id="rotate-word">awesome</span></div>
+        <div class = "authors"> Christopher Chan</div>
+        <div class = "date">CS 467- Social Visualization</div>
+    </div>
+</div>
+<div class = "container">
+    <h1>Introduction</h1>
+    <line class = "other"></line>
+    <p>    
+            Utilizing a variety of libraries including sentiment, fast-csv, jquery,spellchecker,express, and moment, I analyzed 15MB of text messages over a 2 year span. For privacy, I have just saved the cached results instead of the entire log. I had many issues using node.js with such a large data set and had to carefully watch my memory usage throughout the process. 
+    </p>
+
+    <h1>How do I communicate in group chat? </h1>
+    <line class = "other"></line>
+    <p>    
+        This visualization represents the group chat relationships between the four members. I counted the amount of occurances of each member's name to compare who's name is mentioned the most and the relationships among each member. Orange Represents Wilbert, black represents David, yellow represents Linsen, brown represents Chris. 
+    </p>
+    <div id = "chordChart"></div>
+
+    <h1> Do I text differently at different hours during the day? </h1>
+    <line class = "other"></line>
+    <p>    
+        This visualization represents the differences in how I text at each hour. First visualization represents the overall average sentiment at each hour. Second visualization represents who I tend to message the most at each hour. 
+    </p>
+    <div id = "lineChart"></div>
+
+    <p>
+            This visualization represents the differences in how I text at each hour. First visualization represents the overall average sentiment at each hour. Second visualization represents who I tend to message the most at each hour. 
+    </p>
+    <div id = "pieChart"></div>
+
+    <h1> What do I say the most? </h1>
+    <line class = "other"></line>
+    <p>    
+        This visualization represents the differences in how I text at each hour. First visualization represents the overall average sentiment at each hour. Second visualization represents who I tend to message the most at each hour. 
+    </p>
+    <div id = "wordChart"></div>
+
+</div>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src = "scripts/moment.js"></script>
+<script src = "scripts/d3.layout.cloud.js"></script>
+
+<script src = "scripts/dimple.latest.min.js"></script>
+<script src = "scripts/jquery.js"></script>
+<script src = "sss/sss.min.js"></script>
+
+<script src = "scripts/papaparse.min.js"></script>
+<script src = "scripts/main.js"></script>
+<script src = "scripts/moment.js"></script>
+
+</body>
+

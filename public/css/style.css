@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Brawler);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+	margin:0px;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+}
+p {
+	margin: 0;
+	padding: 40px 0px;
+}
+.other{
+	background-color:black;
+}
+#map_election{
+	height:500px;
+	width:700px;
+}
+.headerContainer{
+	width:100%;
+	height:100%;
+  background-image:url("../images/research.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:auto 100%;
+  background-size: cover;
+  color:white;
+  font-weight:300;
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	max-width:700px;
+	margin: 0 auto;
+}
+.headerContainer>.container{
+	padding-top:15%;
+}
+h1{
+	font-size:45px;
+	text-align:center;
+	  font-weight:100;
+
+}
+#subTitle{
+	text-align:center;
+	font-size:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+line{
+	max-width: 300px;
+	margin: 0 auto;
+	height: 1px;
+	background-color: white;
+	outline:0;
+	display:block;
+}
+.authors{
+	font-size:15px;
+	color: rgba(255, 255, 255, 0.83);
+	margin-top:30px;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+.date{
+	margin-top:3px;
+	font-size:15px;
+	color: rgba(255, 255, 255, 0.83);	
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+
+}
+.chord path {
+  fill-opacity: .67;
+  stroke: #000;
+  stroke-width: .5px;
+}
+#chord{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+p{
+	text-align:center;
+}
+#factorChart {
+	font-family: 'Brawler', serif;
+}
